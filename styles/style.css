@@ -168,10 +168,10 @@
     
 }
 .bg .line p {
-    height:200px;
+    height:200px; width:150%;
 }
 .bg .line p:first-child {
-    rotate:10deg;
+    transform: rotate(10deg);
     background:rgba(0, 0, 0, 0.8) url(../images/bg3.png) repeat-x;
     animation:position 100s linear alternate infinite;
 }
